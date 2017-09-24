@@ -6,7 +6,7 @@
 /*   By: ssibiya <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/18 10:51:13 by ssibiya           #+#    #+#             */
-/*   Updated: 2017/09/24 11:51:54 by ssibiya          ###   ########.fr       */
+/*   Updated: 2017/09/24 12:08:38 by ssibiya          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ static char	*ft_readln(int fd, int *rd, int *i)
 	return (0);
 }
 
-int			get_next_line(int fd, char **line)
+int			get_next_line(const int fd, char **line)
 {
 	static int	rd = 0;
 	static int	i = 0;
